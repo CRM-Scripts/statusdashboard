@@ -6,7 +6,6 @@ body {
 }
 
 #wrapper {
-	width: 720px;
 }
 
 
@@ -33,11 +32,13 @@ body {
 
 .arrivals-board {
 
+    margin-left: auto;
+	margin-right: auto;
+
 	font-family: 'Lucida Grande', Helvetica, Arial, sans-serif;
 	color: #fff;
 	
 	width: 612px;
-	margin: 30px 10px 50px 10px;
 	border: 1px solid #353a3b;
 	
 	-webkit-border-radius: 5px; -moz-border-radius: 5px;
@@ -324,4 +325,3 @@ body {
 			content: url(/images/status-display-person.png);
 			padding-right: 3px;
 		}
-
